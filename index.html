@@ -1,0 +1,236 @@
+<div class="container-fluid rule-page">
+
+    <!-- Header -->
+    <div class="page-header mb-4">
+        <h4 class="page-title">Rule Definition</h4>
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <select class="form-select">
+                    <option>Plant</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <select class="form-select">
+                    <option>Cement Plant</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="row">
+
+        <!-- Left Panel -->
+        <div class="col-md-3">
+
+            <div class="rule-list-card">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5>Rule List</h5>
+
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary me-2">
+                            <i class="bi bi-plus-lg"></i>
+                        </button>
+
+                        <button class="btn btn-sm btn-outline-danger">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <input
+                    type="text"
+                    class="form-control mb-3"
+                    placeholder="Search Rule"
+                />
+
+                <div class="rule-scroll">
+
+                    <div class="rule-item active">
+                        <input type="checkbox">
+                        <span>3SigmaRule</span>
+                    </div>
+
+                    <div class="rule-item">
+                        <input type="checkbox">
+                        <span>BothNegativeRule</span>
+                    </div>
+
+                    <div class="rule-item">
+                        <input type="checkbox">
+                        <span>BothPositiveRule</span>
+                    </div>
+
+                    <div class="rule-item">
+                        <input type="checkbox">
+                        <span>ClinkerStatusCheck</span>
+                    </div>
+
+                    <div class="rule-item">
+                        <input type="checkbox">
+                        <span>DeltaAbsRule</span>
+                    </div>
+
+                    <div class="rule-item">
+                        <input type="checkbox">
+                        <span>HigherConditionRule</span>
+                    </div>
+
+                    <div class="rule-item">
+                        <input type="checkbox">
+                        <span>LowerConditionRule</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Panel -->
+        <div class="col-md-9">
+
+            <div class="rule-details-card">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+
+                    <h5>Rule Details</h5>
+
+                    <button class="btn btn-link">
+                        <i class="bi bi-pencil"></i>
+                    </button>
+
+                </div>
+
+                <h6 class="mb-3">Rule Information</h6>
+
+                <div class="accordion" id="ruleAccordion">
+
+                    <!-- Rule Details -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#ruleDetails">
+                                Rule Details
+                            </button>
+                        </h2>
+
+                        <div
+                            id="ruleDetails"
+                            class="accordion-collapse collapse show">
+
+                            <div class="accordion-body">
+                                Rule Details Content
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Parameter Details -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parameterDetails">
+                                Parameter Details
+                            </button>
+                        </h2>
+
+                        <div
+                            id="parameterDetails"
+                            class="accordion-collapse collapse">
+
+                            <div class="accordion-body">
+                                Parameter Content
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Notification Details -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#notificationDetails">
+                                Notification Details
+                            </button>
+                        </h2>
+
+                        <div
+                            id="notificationDetails"
+                            class="accordion-collapse collapse">
+
+                            <div class="accordion-body">
+                                Notification Content
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Notification Settings -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#notificationSettings">
+                                Notification Settings
+                            </button>
+                        </h2>
+
+                        <div
+                            id="notificationSettings"
+                            class="accordion-collapse collapse">
+
+                            <div class="accordion-body">
+                                Settings Content
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Execution Details -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#executionDetails">
+                                Execution Details
+                            </button>
+                        </h2>
+
+                        <div
+                            id="executionDetails"
+                            class="accordion-collapse collapse">
+
+                            <div class="accordion-body">
+                                Execution Content
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        Release Version 3.0.0 |
+        Copyright © Tata Consultancy Services
+    </div>
+
+</div>
