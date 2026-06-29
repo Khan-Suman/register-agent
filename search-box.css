@@ -1,0 +1,81 @@
+.rule-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 42px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 0 12px;
+
+  &:focus-within {
+    border-color: #2f80ed;
+  }
+}
+
+.search-icon {
+  font-size: 18px;
+  color: #c7c7c7;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.search-input {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+  padding: 0;
+  font-size: 15px;
+  color: #444;
+  background: transparent;
+
+  &::placeholder {
+    color: #8d8d8d;
+    font-size: 15px;
+  }
+}
+
+.icon-btn {
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+
+  i {
+    color: #2f80ed;
+  }
+}
+
+.add-btn {
+  border: 2px solid #2f80ed;
+  border-radius: 6px;
+
+  i {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &:hover {
+    background: #f5f9ff;
+  }
+}
+
+.delete-btn {
+  i {
+    font-size: 22px;
+  }
+
+  &:hover {
+    color: #0d6efd;
+  }
+}
